@@ -3,18 +3,36 @@ project:
   output-dir: docs
 
 website:
-  title: "stepanData"
+  title: "samantha csik"
+  favicon: img/logo.png
   navbar:
-    left:
+    title: false # change this to false!
+    logo: img/logo.png
+    logo-alt: "Alt text for logo"
+    right: 
       - href: index.qmd
-        text: Home
+        text: home 
       - about.qmd
+      - resources.qmd
+      - href: cv/cv.pdf
+        text: cv
+      - icon: github # add icons that link to social media, etc.
+        href: https://github.com/stepanz25
+      - icon: mastodon
+        href: https://mastodon.social/@stepanData
+  page-footer: 
+    background: light
+    left: 
+      - "Copyright 2023, Stepan Zaiatc"
+    right: 
+      - icon: github
+        href: https://github.com/stepanz25
+      - icon: mastodon
+        href: https://mastodon.social/@stepanData
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: trestles
+      dark: slate
     css: styles.css
-    toc: true
-
-editor: visual
-

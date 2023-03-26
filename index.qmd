@@ -1,11 +1,41 @@
 ---
-title: "stepanData"
+title: "Stepan Zaiatc"
+image: img/IMG_4256.jpg # great spot for your professional headshot :)
+about: 
+  template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - icon: linkedin # you'll need to the fontawesome extension to include icons: https://github.com/quarto-ext/fontawesome
+      text: LinkedIn
+      href: https://www.linkedin.com/in/stepan-zaiatc/
+    - icon: mastodon
+      text: Mastodon
+      href: https://mastodon.social/@stepanData
+    - icon: github
+      text: GitHub
+      href: https://github.com/stepanz25
+    - icon: envelope
+      text: Email
+      href: mailto:zaiatc.stepan@gmail.com
 ---
 
-This is a Quarto website.
+### hi there! 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm Stepan (and my last name is pronounced "zah-YAHTS"). I'm a current Master of Data Science student at the University of British Columbia in Vancouver, Canada. My professional experience includes over three years of work in various chemistry, microbiology, and clinical laboratories. I am an aspiring data scientist with a track record of producing high-quality analytical data, and leveraging a diverse skill set in statistical analysis, machine learning, and data visualization.
 
-```{r}
-1 + 1
-```
+Currently, I am seeking to transition knowledge to the field of computational biology and data science. In my spare time, you'll typically find me
+hiking around Vancouver or skiing in the mountains with friends.
+
+### education
+
+
+MS in Ecology, Evolution & Marine Biology, 2020
+University of California, Santa Barbara
+BS in Marine Biology, 2016
+Northeastern University
+experience
+Data Training Coordinator, 2021-present
+National Center for Ecological Analysis & Synthesis
+Data Science Fellow, 2020-2021
+National Center for Ecological Analysis & Synthesis
