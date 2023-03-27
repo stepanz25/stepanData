@@ -1,7 +1,7 @@
 ---
 title: "`forxpy` & `forxr` Packages"
 date: 02-03-2023
-description: Packages `forxpy` and `forxr` are created for Python and R allowing users to easily convert currency rates using daily exchange rate data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates data as well as visualizations.
+description: "`forxpy` and `forxr` are two packages created for Python and R that allow users to easily convert currency rates using daily exchange rate data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates."
 author:
   - name: Stepan Zaiatc
     affiliation: University of British Columbia

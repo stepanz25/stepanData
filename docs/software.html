@@ -149,6 +149,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
+    <a class="nav-link" href="https://medium.com/@zaiatc.stepan"><i class="bi bi-medium" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
     <a class="nav-link" href="mailto:zaiatc.stepan@gmail.com"><i class="bi bi-envelope" role="img">
 </i> 
  <span class="menu-text"></span></a>
@@ -195,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="r-package,python-package,education" data-listing-date-sort="1675411200000" data-listing-file-modified-sort="1679881087791" data-listing-reading-time-sort="0.88">
+<div class="quarto-post image-right" data-index="0" data-categories="r-package,python-package,education" data-listing-date-sort="1675411200000" data-listing-file-modified-sort="1679894485926" data-listing-reading-time-sort="0.88">
 <div class="thumbnail">
 <p><a href="./software/forxpy:r/forxr.html"> <img src="./software/forxpy:r/forxpy.png" class="thumnail-image"> </a></p>
 </div>
@@ -221,7 +226,7 @@ education
 </div>
 <a href="./software/forxpy:r/forxr.html">
 <div class="listing-description">
-<p>Packages <code>forxpy</code> and <code>forxr</code> are created for Python and R allowing users to easily convert currency rates using daily exchange rate data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates data as well as visualizations.</p>
+<p><code>forxpy</code> and <code>forxr</code> are two packages created for Python and R that allow users to easily convert currency rates using daily exchange rate data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates.</p>
 </div>
 </a>
 </div>
@@ -487,6 +492,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
@@ -516,6 +535,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/stepanz25">
       <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://medium.com/@zaiatc.stepan">
+      <i class="bi bi-medium" role="img">
 </i> 
     </a>
   </li>  

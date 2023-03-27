@@ -24,6 +24,8 @@ website:
         href: https://mastodon.social/@stepanData
       - icon: github
         href: https://github.com/stepanz25
+      - icon: medium
+        href: https://medium.com/@zaiatc.stepan
       - icon: envelope
         href: mailto:zaiatc.stepan@gmail.com
   page-footer: 
@@ -35,8 +37,10 @@ website:
         href: https://www.linkedin.com/in/stepan-zaiatc/
       - icon: mastodon
         href: https://mastodon.social/@stepanData
-      - icon: github # add icons that link to social media, etc.
+      - icon: github
         href: https://github.com/stepanz25
+      - icon: medium
+        href: https://medium.com/@zaiatc.stepan
       - icon: envelope
         href: mailto:zaiatc.stepan@gmail.com
 
@@ -47,3 +51,4 @@ format:
       dark: [cosmo, my_style.scss]
     mainfont: Jost
     css: styles.css
+    link-external-newwindow: true
