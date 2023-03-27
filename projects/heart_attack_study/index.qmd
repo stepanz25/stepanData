@@ -1,0 +1,42 @@
+---
+title: "Inferential study identified factors associated with heart disease"
+date: 12-14-2022
+description: The project identified factors associated with heart disease by analyzing demographic and health factors using permutation and Chi-Squared tests. Age, maximum heart rate achieved, and ST depression induced by exercise were found to be significantly associated with heart disease.
+author:
+  - name: Stepan Zaiatc
+    affiliation: University of British Columbia
+  - name: Kelly Wu
+    affiliation: University of British Columbia
+  - name: Bruce Wu
+    affiliation: University of British Columbia
+  - name: Zilong Yi
+    affiliation: University of British Columbia
+categories: [data_science, visualization, inferential_statistics]
+image: "heart_inference.png"
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(fontawesome)
+```
+
+::: container
+<a class="btn btn-outline-primary" href="https://github.com/UBC-MDS/inferential_study_heart_attack">`r fa("github")` Code Source</a> <a class="btn btn-outline-primary" href="https://htmlpreview.github.io/?https://github.com/UBC-MDS/heart_attack_gr12/blob/main/doc/heart_disease_report.html">`r fa("file")` Final Report </a>
+:::
+
+## Summary
+
+::: columns
+::: {.column width="40%"}
+![*inferential_study_heart_attack* Github Repo Structure](repo_structure.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+The project aimed at determining the relationship between heart disease probability and demographic/health factors such as age, sex, chest pain type, and cholesterol levels. Hypothesis testing was performed using permutation tests for numerical variables like age and electrocardiography (ECG) results such as maximum heart rate achieved and ST depression induced by exercise relative to rest. The Chi-Squared Test was used for categorical variables in contingency table analysis. Results indicated that heart disease patients have higher average age, lower maximum heart rate achieved, and higher ST depression induced by exercise relative to rest compared to non-heart disease patients. Other factors associated with heart disease include sex, chest pain type, exercise-induced angina, slope of the peak exercise ST segment, number of major vessels, and defect type.
+:::
+
+:::

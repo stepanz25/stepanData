@@ -1,12 +1,12 @@
 ---
 title: "Stepan Zaiatc"
-image: img/IMG_4256.jpg # great spot for your professional headshot :)
-about: 
-  template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
+image: img/IMG_4256.jpg
+about:
+  template: trestles
   image-shape: rounded
   image-width: 15em
   links:
-    - icon: linkedin # you'll need to the fontawesome extension to include icons: https://github.com/quarto-ext/fontawesome
+    - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/stepan-zaiatc/
     - icon: mastodon
@@ -15,27 +15,50 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/stepanz25
+    - icon: medium
+      text: Medium
+      href: https://medium.com/@zaiatc.stepan
     - icon: envelope
       text: Email
       href: mailto:zaiatc.stepan@gmail.com
 ---
 
-### hi there! 
+```{r}
+#| label: setup
+#| include: false
+library(fontawesome)
+```
 
-I'm Stepan (and my last name is pronounced "zah-YAHTS"). I'm a current Master of Data Science student at the University of British Columbia in Vancouver, Canada. My professional experience includes over three years of work in various chemistry, microbiology, and clinical laboratories. I am an aspiring data scientist with a track record of producing high-quality analytical data, and leveraging a diverse skill set in statistical analysis, machine learning, and data visualization.
+::: {style="text-align:center"}
+# hi there!
+:::
 
-Currently, I am seeking to transition knowledge to the field of computational biology and data science. In my spare time, you'll typically find me
-hiking around Vancouver or skiing in the mountains with friends.
+I'm Stepan (and my last name is pronounced "zah-YAHTS"). I'm currently a Master of Data Science student at the University of British Columbia in Vancouver, Canada. My professional experience includes over three years working in various chemistry, microbiology, and clinical laboratories. I'm an aspiring data scientist with a track record of producing high-quality analytical data, and leveraging a diverse skill set in statistical analysis, machine learning, and data visualization.
 
-### education
+Currently, I'm seeking to transition knowledge to the field of computational biology and data science. In my spare time, you'll find me hiking or skiing in the mountains around Vancouver with friends.
 
+## **education**
 
-MS in Ecology, Evolution & Marine Biology, 2020
-University of California, Santa Barbara
-BS in Marine Biology, 2016
-Northeastern University
-experience
-Data Training Coordinator, 2021-present
-National Center for Ecological Analysis & Synthesis
-Data Science Fellow, 2020-2021
-National Center for Ecological Analysis & Synthesis
+<p>`r fa('graduation-cap')` Master of Data Science (In progress), 2023 <br> <small class="text-muted">University of British Columbia, Vancouver</small></p>
+
+<p>`r fa('graduation-cap')` BSc Microbiology, 2019 <br> <small class="text-muted">University of British Columbia, Kelowna</small></p>
+
+<p>`r fa('graduation-cap')` BA Service and Tourism, 2017 <br> <small class="text-muted">Sakhalin State University, Russia</small></p>
+
+## **awards**
+
+<p>`r fa('award')` Dean's Honour List, 2018 <br> <small class="text-muted">This designation recognizes exceptionally high academic achievements at UBC's Faculty of Science</small></p>
+
+<p>`r fa('award')` Deputy Vice-Chancellor Scholarship, 2016 -- 2018 <br> <small class="text-muted">This scholarship is awarded to students with high academic achievements</small></p>
+
+## **experience**
+
+<p>`r fa('vial')` Medical Lab Technologist, Nov 2021 -- Sep 2022<br> <small class="text-muted">CardiAI, Vancouver, BC</small></p>
+
+<p>`r fa('vial')` Biomedical Laboratory Analyst, Mar 2021 -- Nov 2021<br> <small class="text-muted">CARO Analytical Services, Burnaby, BC</small></p>
+
+<p>`r fa('vial')` Microbiology Analyst, Mar 2021 -- Aug 2021<br> <small class="text-muted">CARO Analytical Services, Burnaby, BC</small></p>
+
+<p>`r fa('vial')` Microbiologist, Sep 2020 -- Mar 2021<br> <small class="text-muted">Agat Laboratories, Burnaby BC</small></p>
+
+<p>`r fa('vial')` Inorganic Laboratory Analyst, Feb 2020 -- Mar 2021<br> <small class="text-muted">Agat Laboratories, Burnaby, BC</small></p>

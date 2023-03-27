@@ -1,4 +1,13 @@
 /* css styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
 .navbar-logo {
   max-height: 50px;
+}
+
+
+/* Change category label color */
+div.quarto-post .listing-categories .listing-category {
+  color: #75AADB;
 }

@@ -1,16 +1,114 @@
 [
   {
+    "objectID": "projects/shiny_suicide_indicator/index.html",
+    "href": "projects/shiny_suicide_indicator/index.html",
+    "title": "Shiny suicide_indicator_r Dashboard",
+    "section": "",
+    "text": "Code Source  Shiny App"
+  },
+  {
+    "objectID": "projects/shiny_suicide_indicator/index.html#summary",
+    "href": "projects/shiny_suicide_indicator/index.html#summary",
+    "title": "Shiny suicide_indicator_r Dashboard",
+    "section": "Summary",
+    "text": "Summary\n\n\n\n\n\nShiny suicide_indicator_r Dashboard Usage\n\n\n\n\n\nThis app written in Shiny and Dash analyzes suicide rates and socio-economic factors using data from the World Health Organization. It features interactive maps, bar charts, and line plots to visualize the data by country, gender, age group, and time period. The app allows anyone interested in exploring and analyzing suicide rates to study the trends in order to find measures to mitigate the detrimental effects of such phenomena."
+  },
+  {
+    "objectID": "projects/medium/index.html",
+    "href": "projects/medium/index.html",
+    "title": "The Purpose of an Education Isn’t What You Think it Is",
+    "section": "",
+    "text": "Full Article   UBC MDS"
+  },
+  {
+    "objectID": "projects/medium/index.html#summary",
+    "href": "projects/medium/index.html#summary",
+    "title": "The Purpose of an Education Isn’t What You Think it Is",
+    "section": "Summary",
+    "text": "Summary\n\n\nThe article discusses my personal experience of the Master of Data Science program at the University of British Columbia. It describes my initial excitement for the program, followed by the sudden realization of how challenging it is. It highlights the differences between undergraduate and graduate programs and the difficulty of the workload. In the article, I am recognizing that my experiences may not be as stressful as some of my classmates’ experiences, who are juggling full-time jobs and taking care of their children while studying. The article emphasizes that the purpose of education is not just to learn the course materials but also to train individuals to be motivated problem-solvers.\n\n\n\n\n\n\nUBC Vancouver Campus"
+  },
+  {
+    "objectID": "projects/heart_attack_study/index.html",
+    "href": "projects/heart_attack_study/index.html",
+    "title": "Inferential study identified factors associated with heart disease",
+    "section": "",
+    "text": "Code Source  Final Report"
+  },
+  {
+    "objectID": "projects/heart_attack_study/index.html#summary",
+    "href": "projects/heart_attack_study/index.html#summary",
+    "title": "Inferential study identified factors associated with heart disease",
+    "section": "Summary",
+    "text": "Summary\n\n\n\n\n\ninferential_study_heart_attack Github Repo Structure\n\n\n\n\n\nThe project aimed at determining the relationship between heart disease probability and demographic/health factors such as age, sex, chest pain type, and cholesterol levels. Hypothesis testing was performed using permutation tests for numerical variables like age and electrocardiography (ECG) results such as maximum heart rate achieved and ST depression induced by exercise relative to rest. The Chi-Squared Test was used for categorical variables in contingency table analysis. Results indicated that heart disease patients have higher average age, lower maximum heart rate achieved, and higher ST depression induced by exercise relative to rest compared to non-heart disease patients. Other factors associated with heart disease include sex, chest pain type, exercise-induced angina, slope of the peak exercise ST segment, number of major vessels, and defect type."
+  },
+  {
+    "objectID": "projects/dash_suicideWatch/index.html",
+    "href": "projects/dash_suicideWatch/index.html",
+    "title": "Dash suicideWatch Dashboard",
+    "section": "",
+    "text": "Code Source  Dash App"
+  },
+  {
+    "objectID": "projects/dash_suicideWatch/index.html#summary",
+    "href": "projects/dash_suicideWatch/index.html#summary",
+    "title": "Dash suicideWatch Dashboard",
+    "section": "Summary",
+    "text": "Summary\n\n\n\n\n\nsuicideWatch Dashboard Usage\n\n\n\n\n\nThe suicideWatch Dash app provides visualizations and statistics on the number of suicides and suicide rates for different age groups and genders in various countries. The app is primarily targeted towards researchers, policymakers, mental health professionals, and anyone interested in exploring and analyzing suicide rates with interactive capabilities that allow them to study the trends to find measures to mitigate the detrimental effects of such phenomena."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Shiny suicide_indicator_r Dashboard\n\n\n\n\n\n\n\ndashboard\n\n\ndata_science\n\n\neducation\n\n\nshiny\n\n\nggplot\n\n\n\n\nShiny suicide_indicator_r Dashboard analyzes the suicide rates and related socio-economic factors in different regions of the world.\n\n\n\n\n\n\nMar 22, 2023\n\n\nStepan Zaiatc, Qurat-ul-Ain Azim, Ty Andrews, Zilong Yi\n\n\n\n\n\n\n  \n\n\n\n\nDash suicideWatch Dashboard\n\n\n\n\n\n\n\ndashboard\n\n\ndata_science\n\n\neducation\n\n\ndash\n\n\nplotly\n\n\n\n\nThe suicideWatch Dash app provides visualizations and statistics on the number of suicides and suicide rates for different age groups and genders in various countries.This Dash application is a little cuisine of our bigger Shiny application build upon the same data set.\n\n\n\n\n\n\nMar 22, 2023\n\n\nStepan Zaiatc\n\n\n\n\n\n\n  \n\n\n\n\nThe Purpose of an Education Isn’t What You Think it Is\n\n\n\n\n\n\n\ndata_science\n\n\neducation\n\n\nmaster_degree\n\n\n\n\nPersonal experience of the Master of Data Science program at the University of British Columbia.\n\n\n\n\n\n\nJan 22, 2023\n\n\nStepan Zaiatc\n\n\n\n\n\n\n  \n\n\n\n\nInferential study identified factors associated with heart disease\n\n\n\n\n\n\n\ndata_science\n\n\nvisualization\n\n\ninferential_statistics\n\n\n\n\nThe project identified factors associated with heart disease by analyzing demographic and health factors using permutation and Chi-Squared tests. Age, maximum heart rate achieved, and ST depression induced by exercise were found to be significantly associated with heart disease.\n\n\n\n\n\n\nDec 14, 2022\n\n\nStepan Zaiatc, Kelly Wu, Bruce Wu, Zilong Yi\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Stepan Zaiatc",
     "section": "",
-    "text": "hi there!\nI’m Stepan (and my last name is pronounced “zah-YAHTS”). I’m a current Master of Data Science student at the University of British Columbia in Vancouver, Canada. My professional experience includes over three years of work in various chemistry, microbiology, and clinical laboratories. I am an aspiring data scientist with a track record of producing high-quality analytical data, and leveraging a diverse skill set in statistical analysis, machine learning, and data visualization.\nCurrently, I am seeking to transition knowledge to the field of computational biology and data science. In my spare time, you’ll typically find me hiking around Vancouver or skiing in the mountains with friends.\n\n\neducation\nMS in Ecology, Evolution & Marine Biology, 2020 University of California, Santa Barbara BS in Marine Biology, 2016 Northeastern University experience Data Training Coordinator, 2021-present National Center for Ecological Analysis & Synthesis Data Science Fellow, 2020-2021 National Center for Ecological Analysis & Synthesis"
+    "text": "I’m Stepan (and my last name is pronounced “zah-YAHTS”). I’m currently a Master of Data Science student at the University of British Columbia in Vancouver, Canada. My professional experience includes over three years working in various chemistry, microbiology, and clinical laboratories. I’m an aspiring data scientist with a track record of producing high-quality analytical data, and leveraging a diverse skill set in statistical analysis, machine learning, and data visualization.\nCurrently, I’m seeking to transition knowledge to the field of computational biology and data science. In my spare time, you’ll find me hiking or skiing in the mountains around Vancouver with friends."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Stepan Zaiatc",
+    "section": "education",
+    "text": "education\n\n Master of Data Science (In progress), 2023  University of British Columbia, Vancouver\n\n\n BSc Microbiology, 2019  University of British Columbia, Kelowna\n\n\n BA Service and Tourism, 2017  Sakhalin State University, Russia"
+  },
+  {
+    "objectID": "index.html#awards",
+    "href": "index.html#awards",
+    "title": "Stepan Zaiatc",
+    "section": "awards",
+    "text": "awards\n\n Dean’s Honour List, 2018  This designation recognizes exceptionally high academic achievements at UBC’s Faculty of Science\n\n\n Deputy Vice-Chancellor Scholarship, 2016 – 2018  This scholarship is awarded to students with high academic achievements"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Stepan Zaiatc",
+    "section": "experience",
+    "text": "experience\n\n Medical Lab Technologist, Nov 2021 – Sep 2022 CardiAI, Vancouver, BC\n\n\n Biomedical Laboratory Analyst, Mar 2021 – Nov 2021 CARO Analytical Services, Burnaby, BC\n\n\n Microbiology Analyst, Mar 2021 – Aug 2021 CARO Analytical Services, Burnaby, BC\n\n\n Microbiologist, Sep 2020 – Mar 2021 Agat Laboratories, Burnaby BC\n\n\n Inorganic Laboratory Analyst, Feb 2020 – Mar 2021 Agat Laboratories, Burnaby, BC"
+  },
+  {
+    "objectID": "software/forxpy:r/forxr.html",
+    "href": "software/forxpy:r/forxr.html",
+    "title": "forxpy & forxr Packages",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "forxpy Code Source  forxpy Pkg   forxr Code Source  forxr Pkg"
+  },
+  {
+    "objectID": "software/forxpy:r/forxr.html#summary",
+    "href": "software/forxpy:r/forxr.html#summary",
+    "title": "forxpy & forxr Packages",
+    "section": "Summary",
+    "text": "Summary\n\n\n \n\n\n\nforxpy and forxr are Python and R packages that provide easy access to daily exchange rates and forex conversion. They were created by a group of four MDS students and utilize data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates. Users can easily make currency conversions with a simple function call, and the packages also allow for the retrieval of historical exchange rates in a chart, making it useful for dashboard building. forxpy and forxr can be useful for various industries that require currency conversions, such as finance and banking, e-commerce, travel and tourism, data analysis, and cryptocurrency. Similar packages include forex-python and CurrencyConverter. forxpy and forxr are released under the terms of the MIT license and welcome contributions from all interested individuals."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "forxpy & forxr Packages\n\n\n\n\n\n\n\nr-package\n\n\npython-package\n\n\neducation\n\n\n\n\nPackages forxpy and forxr are created for Python and R that allow users to easily convert currency rates using daily exchange rate data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates data.\n\n\n\n\n\n\nFeb 3, 2023\n\n\nStepan Zaiatc, Dhruvi Noshar, Mohammad Reza Nabizadeh, Hongjian Li\n\n\n\n\n\n\nNo matching items"
   }
 ]

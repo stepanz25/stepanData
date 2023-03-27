@@ -1,0 +1,42 @@
+---
+title: "Shiny `suicide_indicator_r` Dashboard"
+date: 03-22-2023
+description: Shiny `suicide_indicator_r` Dashboard analyzes the suicide rates and related socio-economic factors in different regions of the world.
+author:
+  - name: Stepan Zaiatc
+    affiliation: University of British Columbia
+  - name: Qurat-ul-Ain Azim
+    affiliation: University of British Columbia
+  - name: Ty Andrews
+    affiliation: University of British Columbia
+  - name: Zilong Yi
+    affiliation: University of British Columbia
+categories: [dashboard, data_science, education, shiny, ggplot]
+image: "shiny.gif"
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(fontawesome)
+```
+
+::: container
+<a class="btn btn-outline-primary" href="https://github.com/UBC-MDS/suicide_indicator_r">`r fa("github")` Code Source</a> <a class="btn btn-outline-primary" href="https://tieandrews.shinyapps.io/suicide_indicator_r/">`r fa("chart-simple")` Shiny App </a>
+:::
+
+## Summary
+
+::: columns
+::: {.column width="40%"}
+![Shiny *suicide_indicator_r* Dashboard Usage](shiny.gif)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+This app written in Shiny and Dash analyzes suicide rates and socio-economic factors using data from the World Health Organization. It features interactive maps, bar charts, and line plots to visualize the data by country, gender, age group, and time period. The app allows anyone interested in exploring and analyzing suicide rates to study the trends in order to find measures to mitigate the detrimental effects of such phenomena.
+:::
+
+:::

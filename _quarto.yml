@@ -3,36 +3,47 @@ project:
   output-dir: docs
 
 website:
-  title: "samantha csik"
+  title: "Stepan Zaiatc"
   favicon: img/logo.png
   navbar:
-    title: false # change this to false!
+    title: "Stepan Zaiatc" # change this to false!
     logo: img/logo.png
     logo-alt: "Alt text for logo"
     right: 
       - href: index.qmd
         text: home 
-      - about.qmd
-      - resources.qmd
-      - href: cv/cv.pdf
+      - href: projects.qmd
+        text: projects
+      - href: software.qmd
+        text: software
+      - href: cv.qmd
         text: cv
+      - icon: linkedin
+        href: https://www.linkedin.com/in/stepan-zaiatc/
+      - icon: mastodon
+        href: https://mastodon.social/@stepanData
       - icon: github # add icons that link to social media, etc.
         href: https://github.com/stepanz25
-      - icon: mastodon
-        href: https://mastodon.social/@stepanData
+      - icon: envelope
+        href: mailto:zaiatc.stepan@gmail.com
   page-footer: 
-    background: light
+    background: dark
     left: 
-      - "Copyright 2023, Stepan Zaiatc"
+      - "Copyright &copy; 2023 by Stepan Zaiatc"
     right: 
-      - icon: github
-        href: https://github.com/stepanz25
+      - icon: linkedin
+        href: https://www.linkedin.com/in/stepan-zaiatc/
       - icon: mastodon
         href: https://mastodon.social/@stepanData
+      - icon: github # add icons that link to social media, etc.
+        href: https://github.com/stepanz25
+      - icon: envelope
+        href: mailto:zaiatc.stepan@gmail.com
 
 format:
   html:
-    theme: 
-      light: trestles
-      dark: slate
+    theme:
+      light: cosmo
+      dark: [cosmo, my_style.scss]
+    mainfont: Jost
     css: styles.css

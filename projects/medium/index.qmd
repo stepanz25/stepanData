@@ -1,0 +1,36 @@
+---
+title: "The Purpose of an Education Isn’t What You Think it Is"
+date: 01-22-2023 
+description: Personal experience of the Master of Data Science program at the University of British Columbia.
+author:
+  - name: Stepan Zaiatc
+    affiliation: University of British Columbia
+categories: [data_science, education, master_degree]
+image: "ubc.jpg"
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(fontawesome)
+```
+
+::: container
+<a class="btn btn-outline-primary" href="https://medium.com/@zaiatc.stepan/the-purpose-of-an-education-isnt-what-you-think-it-is-df8a8eb57e79">`r fa("medium")` Full Article </a> <a class="btn btn-outline-primary" href="https://masterdatascience.ubc.ca">`r fa("building-columns")` UBC MDS </a>
+:::
+
+## Summary
+
+::: columns
+::: {.column width="55%"}
+The article discusses my personal experience of the Master of Data Science program at the University of British Columbia. It describes my initial excitement for the program, followed by the sudden realization of how challenging it is. It highlights the differences between undergraduate and graduate programs and the difficulty of the workload. In the article, I am recognizing that my experiences may not be as stressful as some of my classmates' experiences, who are juggling full-time jobs and taking care of their children while studying. The article emphasizes that the purpose of education is **not** just to learn the course materials but also to train individuals to be motivated problem-solvers.
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+![UBC Vancouver Campus](ubc.jpg)
+:::
+
+:::

@@ -1,0 +1,45 @@
+---
+title: "`forxpy` & `forxr` Packages"
+date: 02-03-2023
+description: Packages `forxpy` and `forxr` are created for Python and R that allow users to easily convert currency rates using daily exchange rate data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates data.
+author:
+  - name: Stepan Zaiatc
+    affiliation: University of British Columbia
+  - name: Dhruvi Noshar
+    affiliation: University of British Columbia
+  - name: Mohammad Reza Nabizadeh
+    affiliation: University of British Columbia
+  - name: Hongjian Li
+    affiliation: University of British Columbia
+categories: [r-package, python-package, education]
+image: "forxpy.png"
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(fontawesome)
+```
+
+::: container
+<a class="btn btn-outline-primary" href="https://github.com/UBC-MDS/forxpy">`r fa("github")` *forxpy* Code Source</a> <a class="btn btn-outline-primary" href="https://forxpy.readthedocs.io/en/latest/index.html">`r fa("computer")` *forxpy* Pkg </a>
+<a class="btn btn-outline-primary" href="https://github.com/UBC-MDS/forxr">`r fa("github")` *forxr* Code Source</a> <a class="btn btn-outline-primary" href="https://ubc-mds.github.io/forxr/">`r fa("computer")` *forxr* Pkg </a>
+
+:::
+
+## Summary
+
+::: columns
+::: {.column width="40%"}
+![*forxpy* Package Landing Page](forxpy.png)
+![*forxr* Package Landing Page](forxr.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+`forxpy` and `forxr` are Python and R packages that provide easy access to daily exchange rates and forex conversion. They were created by a group of four MDS students and utilize data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates. Users can easily make currency conversions with a simple function call, and the packages also allow for the retrieval of historical exchange rates in a chart, making it useful for dashboard building. `forxpy` and `forxr` can be useful for various industries that require currency conversions, such as finance and banking, e-commerce, travel and tourism, data analysis, and cryptocurrency. Similar packages include forex-python and CurrencyConverter. `forxpy` and `forxr` are released under the terms of the MIT license and welcome contributions from all interested individuals.
+:::
+
+:::

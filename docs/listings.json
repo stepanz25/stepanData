@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/shiny_suicide_indicator/index.html",
+      "/projects/dash_suicideWatch/index.html",
+      "/projects/medium/index.html",
+      "/projects/heart_attack_study/index.html"
+    ]
+  },
+  {
+    "listing": "/software.html",
+    "items": [
+      "/software/forxpy:r/forxr.html"
+    ]
+  }
+]

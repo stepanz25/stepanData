@@ -1,0 +1,12 @@
+---
+title: "Software"
+listing: 
+  contents: software
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
