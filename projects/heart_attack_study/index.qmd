@@ -12,7 +12,7 @@ author:
   - name: Zilong Yi
     affiliation: University of British Columbia
 categories: [data_science, visualization, inferential_statistics]
-image: "heart_inference.png"
+image: "heart_inference.jpg"
 ---
 
 ```{r}

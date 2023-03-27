@@ -29,7 +29,7 @@ library(fontawesome)
 
 ::: columns
 ::: {.column width="40%"}
-![forxpy Package Landing Page](forxpy.png) ![forxr Package Landing Page](forxr.png)
+![forxr Package Landing Page](forxr.png)
 :::
 
 ::: {.column width="5%"}

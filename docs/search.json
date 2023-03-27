@@ -53,7 +53,7 @@
     "href": "projects/dash_suicideWatch/index.html#summary",
     "title": "Dash suicideWatch Dashboard",
     "section": "Summary",
-    "text": "Summary\n\n\n\n\n\nsuicideWatch Dashboard Usage\n\n\n\n\n\nThe suicideWatch Dash app provides visualizations and statistics on the number of suicides and suicide rates for different age groups and genders in various countries. The app is primarily targeted towards researchers, policymakers, mental health professionals, and anyone interested in exploring and analyzing suicide rates with interactive capabilities that allow them to study the trends to find measures to mitigate the detrimental effects of such phenomena."
+    "text": "Summary\n\n\n\n\n\nsuicideWatch Dashboard Sketch\n\n\n\n\n\nThe suicideWatch Dash app provides visualizations and statistics on the number of suicides and suicide rates for different age groups and genders in various countries. The app is primarily targeted towards researchers, policymakers, mental health professionals, and anyone interested in exploring and analyzing suicide rates with interactive capabilities that allow them to study the trends to find measures to mitigate the detrimental effects of such phenomena."
   },
   {
     "objectID": "projects.html",
@@ -102,7 +102,7 @@
     "href": "software/forxpy:r/forxr.html#summary",
     "title": "forxpy & forxr Packages",
     "section": "Summary",
-    "text": "Summary\n\n\n \n\n\n\nforxpy and forxr are Python and R packages that provide easy access to daily exchange rates and forex conversion. They were created by me and my collaborates at UBC and utilize data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates. Users can easily make currency conversions with a simple function call, and the packages also allow for the retrieval of historical exchange rates in a chart, making it useful for dashboard building. forxpy and forxr can be useful for various industries that require currency conversions, such as finance and banking, e-commerce, travel and tourism, data analysis, and cryptocurrency. Similar packages include forex-python and CurrencyConverter. forxpy and forxr are released under the terms of the MIT license and welcome all contributions."
+    "text": "Summary\n\n\n\n\n\nforxr Package Landing Page\n\n\n\n\n\nforxpy and forxr are Python and R packages that provide easy access to daily exchange rates and forex conversion. They were created by me and my collaborates at UBC and utilize data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates. Users can easily make currency conversions with a simple function call, and the packages also allow for the retrieval of historical exchange rates in a chart, making it useful for dashboard building. forxpy and forxr can be useful for various industries that require currency conversions, such as finance and banking, e-commerce, travel and tourism, data analysis, and cryptocurrency. Similar packages include forex-python and CurrencyConverter. forxpy and forxr are released under the terms of the MIT license and welcome all contributions."
   },
   {
     "objectID": "software.html",

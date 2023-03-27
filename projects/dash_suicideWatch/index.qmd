@@ -6,7 +6,7 @@ author:
   - name: Stepan Zaiatc
     affiliation: University of British Columbia
 categories: [dashboard, data_science, education, dash, plotly]
-image: "app_sketch.png"
+image: "suicideWatch.gif"
 ---
 
 ```{r}
@@ -23,7 +23,7 @@ library(fontawesome)
 
 ::: columns
 ::: {.column width="40%"}
-![*suicideWatch* Dashboard Usage](suicideWatch.gif)
+![*suicideWatch* Dashboard Sketch](app_sketch.png)
 :::
 
 ::: {.column width="5%"}
