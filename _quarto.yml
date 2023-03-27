@@ -6,9 +6,9 @@ website:
   title: "Stepan Zaiatc"
   favicon: img/logo.png
   navbar:
-    title: "Stepan Zaiatc" # change this to false!
+    title: "***Stepan Zaiatc***"
     logo: img/logo.png
-    logo-alt: "Alt text for logo"
+    logo-alt: "Stepan Zaiatc's Logo"
     right: 
       - href: index.qmd
         text: home 

@@ -30,14 +30,14 @@
   {
     "objectID": "projects/heart_attack_study/index.html",
     "href": "projects/heart_attack_study/index.html",
-    "title": "Inferential study identified factors associated with heart disease",
+    "title": "Inferential Study Identifying Factors Associated with Heart Diseases",
     "section": "",
     "text": "Code Source  Final Report"
   },
   {
     "objectID": "projects/heart_attack_study/index.html#summary",
     "href": "projects/heart_attack_study/index.html#summary",
-    "title": "Inferential study identified factors associated with heart disease",
+    "title": "Inferential Study Identifying Factors Associated with Heart Diseases",
     "section": "Summary",
     "text": "Summary\n\n\n\n\n\ninferential_study_heart_attack Github Repo Structure\n\n\n\n\n\nThe project aimed at determining the relationship between heart disease probability and demographic/health factors such as age, sex, chest pain type, and cholesterol levels. Hypothesis testing was performed using permutation tests for numerical variables like age and electrocardiography (ECG) results such as maximum heart rate achieved and ST depression induced by exercise relative to rest. The Chi-Squared Test was used for categorical variables in contingency table analysis. Results indicated that heart disease patients have higher average age, lower maximum heart rate achieved, and higher ST depression induced by exercise relative to rest compared to non-heart disease patients. Other factors associated with heart disease include sex, chest pain type, exercise-induced angina, slope of the peak exercise ST segment, number of major vessels, and defect type."
   },
@@ -60,7 +60,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Shiny suicide_indicator_r Dashboard\n\n\n\n\n\n\n\ndashboard\n\n\ndata_science\n\n\neducation\n\n\nshiny\n\n\nggplot\n\n\n\n\nShiny suicide_indicator_r Dashboard analyzes the suicide rates and related socio-economic factors in different regions of the world.\n\n\n\n\n\n\nMar 22, 2023\n\n\nStepan Zaiatc, Qurat-ul-Ain Azim, Ty Andrews, Zilong Yi\n\n\n\n\n\n\n  \n\n\n\n\nDash suicideWatch Dashboard\n\n\n\n\n\n\n\ndashboard\n\n\ndata_science\n\n\neducation\n\n\ndash\n\n\nplotly\n\n\n\n\nThe suicideWatch Dash app provides visualizations and statistics on the number of suicides and suicide rates for different age groups and genders in various countries.This Dash application is a little cuisine of our bigger Shiny application build upon the same data set.\n\n\n\n\n\n\nMar 22, 2023\n\n\nStepan Zaiatc\n\n\n\n\n\n\n  \n\n\n\n\nThe Purpose of an Education Isn’t What You Think it Is\n\n\n\n\n\n\n\ndata_science\n\n\neducation\n\n\nmaster_degree\n\n\n\n\nPersonal experience of the Master of Data Science program at the University of British Columbia.\n\n\n\n\n\n\nJan 22, 2023\n\n\nStepan Zaiatc\n\n\n\n\n\n\n  \n\n\n\n\nInferential study identified factors associated with heart disease\n\n\n\n\n\n\n\ndata_science\n\n\nvisualization\n\n\ninferential_statistics\n\n\n\n\nThe project identified factors associated with heart disease by analyzing demographic and health factors using permutation and Chi-Squared tests. Age, maximum heart rate achieved, and ST depression induced by exercise were found to be significantly associated with heart disease.\n\n\n\n\n\n\nDec 14, 2022\n\n\nStepan Zaiatc, Kelly Wu, Bruce Wu, Zilong Yi\n\n\n\n\n\n\nNo matching items"
+    "text": "Shiny suicide_indicator_r Dashboard\n\n\n\n\n\n\n\ndashboard\n\n\ndata_science\n\n\neducation\n\n\nshiny\n\n\nggplot\n\n\n\n\nShiny suicide_indicator_r Dashboard analyzes the suicide rates and related socio-economic factors in different regions of the world.\n\n\n\n\n\n\nMar 22, 2023\n\n\nStepan Zaiatc, Qurat-ul-Ain Azim, Ty Andrews, Zilong Yi\n\n\n\n\n\n\n  \n\n\n\n\nDash suicideWatch Dashboard\n\n\n\n\n\n\n\ndashboard\n\n\ndata_science\n\n\neducation\n\n\ndash\n\n\nplotly\n\n\n\n\nThe suicideWatch Dash app provides visualizations and statistics on the number of suicides and suicide rates for different age groups and genders in various countries.This Dash application is a little cuisine of our bigger Shiny application build upon the same data set.\n\n\n\n\n\n\nMar 22, 2023\n\n\nStepan Zaiatc\n\n\n\n\n\n\n  \n\n\n\n\nThe Purpose of an Education Isn’t What You Think it Is\n\n\n\n\n\n\n\ndata_science\n\n\neducation\n\n\nmaster_degree\n\n\n\n\nPersonal experience of the Master of Data Science program at the University of British Columbia.\n\n\n\n\n\n\nJan 22, 2023\n\n\nStepan Zaiatc\n\n\n\n\n\n\n  \n\n\n\n\nInferential Study Identifying Factors Associated with Heart Diseases\n\n\n\n\n\n\n\ndata_science\n\n\nvisualization\n\n\ninferential_statistics\n\n\n\n\nThe project identifies factors associated with heart disease by analyzing demographic and health factors using permutation and Chi-Squared tests. By the end of this study age, maximum heart rate achieved, and ST depression induced by exercise were found to be significantly associated with heart disease.\n\n\n\n\n\n\nDec 14, 2022\n\n\nStepan Zaiatc, Kelly Wu, Bruce Wu, Zilong Yi\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -102,13 +102,13 @@
     "href": "software/forxpy:r/forxr.html#summary",
     "title": "forxpy & forxr Packages",
     "section": "Summary",
-    "text": "Summary\n\n\n \n\n\n\nforxpy and forxr are Python and R packages that provide easy access to daily exchange rates and forex conversion. They were created by a group of four MDS students and utilize data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates. Users can easily make currency conversions with a simple function call, and the packages also allow for the retrieval of historical exchange rates in a chart, making it useful for dashboard building. forxpy and forxr can be useful for various industries that require currency conversions, such as finance and banking, e-commerce, travel and tourism, data analysis, and cryptocurrency. Similar packages include forex-python and CurrencyConverter. forxpy and forxr are released under the terms of the MIT license and welcome contributions from all interested individuals."
+    "text": "Summary\n\n\n \n\n\n\nforxpy and forxr are Python and R packages that provide easy access to daily exchange rates and forex conversion. They were created by me and my collaborates at UBC and utilize data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates. Users can easily make currency conversions with a simple function call, and the packages also allow for the retrieval of historical exchange rates in a chart, making it useful for dashboard building. forxpy and forxr can be useful for various industries that require currency conversions, such as finance and banking, e-commerce, travel and tourism, data analysis, and cryptocurrency. Similar packages include forex-python and CurrencyConverter. forxpy and forxr are released under the terms of the MIT license and welcome all contributions."
   },
   {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "forxpy & forxr Packages\n\n\n\n\n\n\n\nr-package\n\n\npython-package\n\n\neducation\n\n\n\n\nPackages forxpy and forxr are created for Python and R that allow users to easily convert currency rates using daily exchange rate data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates data.\n\n\n\n\n\n\nFeb 3, 2023\n\n\nStepan Zaiatc, Dhruvi Noshar, Mohammad Reza Nabizadeh, Hongjian Li\n\n\n\n\n\n\nNo matching items"
+    "text": "forxpy & forxr Packages\n\n\n\n\n\n\n\nr-package\n\n\npython-package\n\n\neducation\n\n\n\n\nPackages forxpy and forxr are created for Python and R allowing users to easily convert currency rates using daily exchange rate data from the Bank of Canada. The packages support multiple currencies and provide historical exchange rates data as well as visualizations.\n\n\n\n\n\n\nFeb 3, 2023\n\n\nStepan Zaiatc, Dhruvi Noshar, Mohammad Reza Nabizadeh, Hongjian Li\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,5 +1,5 @@
 ---
-title: "Stepan Zaiatc"
+title: "**Stepan Zaiatc**"
 image: img/IMG_4256.jpg
 about:
   template: trestles
