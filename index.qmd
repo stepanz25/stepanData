@@ -4,7 +4,7 @@ image: img/IMG_4256.jpg
 about:
   template: trestles
   image-shape: rounded
-  image-width: 20em
+  image-width: 17em
   links:
     - icon: linkedin
       text: LinkedIn
