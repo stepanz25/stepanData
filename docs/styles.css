@@ -11,3 +11,9 @@
 div.quarto-post .listing-categories .listing-category {
   color: #75AADB;
 }
+
+.navbar-title {
+  font-size: 40px;
+  font-style: bold;
+}
+

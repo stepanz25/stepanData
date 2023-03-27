@@ -6,7 +6,7 @@ website:
   title: "Stepan Zaiatc"
   favicon: img/logo.png
   navbar:
-    title: "***Stepan Zaiatc***"
+    title: "**Stepan Zaiatc**"
     logo: img/logo.png
     logo-alt: "Stepan Zaiatc's Logo"
     right: 
@@ -22,7 +22,7 @@ website:
         href: https://www.linkedin.com/in/stepan-zaiatc/
       - icon: mastodon
         href: https://mastodon.social/@stepanData
-      - icon: github # add icons that link to social media, etc.
+      - icon: github
         href: https://github.com/stepanz25
       - icon: envelope
         href: mailto:zaiatc.stepan@gmail.com
