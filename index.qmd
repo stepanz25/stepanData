@@ -20,7 +20,7 @@ about:
       href: https://medium.com/@zaiatc.stepan
     - icon: envelope
       text: Email
-      href: mailto:zaiatc.stepan@gmail.com
+      href: mailto:Stepan Zaiatc <hello@StepanData.com>
 ---
 
 ```{r}
