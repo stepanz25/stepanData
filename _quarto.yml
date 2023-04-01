@@ -27,7 +27,7 @@ website:
       - icon: medium
         href: https://medium.com/@zaiatc.stepan
       - icon: envelope
-        href: mailto:zaiatc.stepan@gmail.com
+        href: mailto:Stepan Zaiatc <hello@StepanData.com>
   page-footer: 
     background: dark
     left: 
@@ -42,7 +42,7 @@ website:
       - icon: medium
         href: https://medium.com/@zaiatc.stepan
       - icon: envelope
-        href: mailto:zaiatc.stepan@gmail.com
+        href: mailto:Stepan Zaiatc <hello@StepanData.com>
 
 format:
   html:
