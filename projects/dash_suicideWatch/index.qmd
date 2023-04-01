@@ -16,7 +16,7 @@ library(fontawesome)
 ```
 
 ::: container
-<a class="btn btn-outline-primary" href="https://github.com/stepanz25/suicideWatch">`r fa("github")` Code Source</a> <a class="btn btn-outline-primary" href="https://github.com/stepanz25/suicideWatch">`r fa("chart-simple")` Dash App </a>
+<a class="btn btn-outline-primary" href="https://github.com/stepanz25/suicideWatch">`r fa("github")` Code Source</a> <a class="btn btn-outline-primary" href="https://suicide-watch-jdpw.onrender.com">`r fa("chart-simple")` Dash App </a>
 :::
 
 ## Summary
