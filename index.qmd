@@ -33,13 +33,13 @@ library(fontawesome)
 # hi there!
 :::
 
-I'm Stepan (and my last name is pronounced "zah-YAHTS"). I'm currently a Master of Data Science student at the University of British Columbia in Vancouver, Canada. My professional experience includes over three years working in various chemistry, microbiology, and clinical laboratories. I'm an aspiring data scientist with a track record of producing high-quality analytical data, and leveraging a diverse skill set in statistical analysis, machine learning, and data visualization.
+I'm Stepan, with my last name pronounced as "zah-YAHTS." I hold both a Master's degree in Data Science and a Bachelor of Science in Microbiology from the University of British Columbia in Vancouver, Canada. Over a span of more than three years, I've garnered valuable experience across a spectrum of chemistry, microbiology, and clinical laboratories. My career aspiration revolves around becoming a proficient data scientist, underlined by a proven ability to generate high-quality analytical data. My skill set encompasses diverse areas, including statistical analysis, machine learning, and data visualization, with a specific focus on applications within the healthcare sector.
 
 Currently, I'm seeking to transition knowledge to the field of computational biology and data science. In my spare time, you'll find me hiking or skiing in the mountains around Vancouver with friends.
 
 ## **education**
 
-<p>`r fa('graduation-cap')` Master of Data Science (In progress), 2023 <br> <small class="text-muted">University of British Columbia, Vancouver</small></p>
+<p>`r fa('graduation-cap')` Master of Data Science, 2023 <br> <small class="text-muted">University of British Columbia, Vancouver</small></p>
 
 <p>`r fa('graduation-cap')` BSc Microbiology, 2019 <br> <small class="text-muted">University of British Columbia, Kelowna</small></p>
 
