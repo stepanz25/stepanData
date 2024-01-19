@@ -46,7 +46,7 @@
     "href": "projects/dash_suicideWatch/index.html",
     "title": "Dash suicideWatch Dashboard",
     "section": "",
-    "text": "Code Source  Dash App"
+    "text": "HEiDi  Dash App"
   },
   {
     "objectID": "projects/dash_suicideWatch/index.html#summary",
@@ -123,6 +123,13 @@
     "href": "projects/heidi_triage/index.html",
     "title": "Predictive Analytics to Support HLBC 8-1-1 and HEiDi Triage",
     "section": "",
-    "text": "HEiDi Triage Project Roadmap\n\n\n\n\n\nThe primary objective of this initiative was to enhance the 8-1-1 nurse triage model by incorporating the expertise of HealthLink BC Emergency iDoctor in Assistance Program (HEiDi) physicians. Through the development of a machine learning model to predict HEiDi physician disposition, the project aimed to improve nurse triage decisions, reducing urgent in-person emergency department (ED) visits. Techniques such as preprocessing, feature engineering, and data visualization were employed. The project included an automated data pipeline for pre-processing, model training and scoring, and user-friendly dashboard/GUI development for nurse visualization."
+    "text": "HEiDi   HDPBC"
+  },
+  {
+    "objectID": "projects/heidi_triage/index.html#summary",
+    "href": "projects/heidi_triage/index.html#summary",
+    "title": "Predictive Analytics to Support HLBC 8-1-1 and HEiDi Triage",
+    "section": "Summary",
+    "text": "Summary\n\n\n\n\n\nHEiDi Triage Project Roadmap\n\n\n\n\n\nThe primary objective of this initiative was to enhance the 8-1-1 nurse triage model by incorporating the expertise of HealthLink BC Emergency iDoctor in Assistance Program (HEiDi) physicians. Through the development of a machine learning model to predict HEiDi physician disposition, the project aimed to improve nurse triage decisions, reducing urgent in-person emergency department (ED) visits. Techniques such as preprocessing, feature engineering, and data visualization were employed. The project included an automated data pipeline for pre-processing, model training and scoring, and user-friendly dashboard/GUI development for nurse visualization."
   }
 ]

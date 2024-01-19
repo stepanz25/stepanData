@@ -15,6 +15,7 @@ image: "heidi_app_sketch.png"
 library(fontawesome)
 ```
 
+<a class="btn btn-outline-primary" href="https://emergencycarebc.ca/rtvs/heidi/">`r fa("hospital")` HEiDi </a> <a class="btn btn-outline-primary" href="https://www2.gov.bc.ca/assets/gov/health/conducting-health-research/health-data-platform/heidi_website_article_v02.pdf">`r fa("hospital-user")` HDPBC </a>
 
 ## Summary
 
