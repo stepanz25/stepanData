@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Stepan Zaiatc">
+<meta name="dcterms.date" content="2023-05-01">
+<meta name="description" content="The HEiDi service, introduced in April 2020, enhanced the 8-1-1 nursing call flow by incorporating virtual physicians. This integration aimed to improve caller triage, reduce unnecessary urgent in-person ED visits, and prioritize patient safety. The main objectives of our project were (1) to extend the HEiDi physician expertise to the 8-1-1 nurse triage model to further reduce urgent in-person ED visits safely and reliably; (2) to gain insights on the most important features for the prediction task; (3) to identify any patterns in predicting two major classes.">
 
-<title>Stepan Zaiatc - Projects</title>
+<title>Stepan Zaiatc - Predictive Analytics to Support HLBC 8-1-1 and HEiDi Triage</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,52 +64,22 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/logo.png" alt="Stepan Zaiatc's Logo" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo.png" alt="Stepan Zaiatc's Logo" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title"><strong>Stepan Zaiatc</strong></span>
     </a>
   </div>
@@ -118,19 +89,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../../index.html">
  <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page">
+    <a class="nav-link" href="../../projects.html">
  <span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html">
+    <a class="nav-link" href="../../software.html">
  <span class="menu-text">software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html">
+    <a class="nav-link" href="../../cv.html">
  <span class="menu-text">cv</span></a>
   </li>  
   <li class="nav-item compact">
@@ -168,25 +139,55 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="dash">dash <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dashboard">dashboard <span class="quarto-category-count">(3)</span></div><div class="category" data-category="data_science">data_science <span class="quarto-category-count">(5)</span></div><div class="category" data-category="education">education <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ggplot">ggplot <span class="quarto-category-count">(1)</span></div><div class="category" data-category="inferential_statistics">inferential_statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine_learning">machine_learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="master_degree">master_degree <span class="quarto-category-count">(1)</span></div><div class="category" data-category="plotly">plotly <span class="quarto-category-count">(2)</span></div><div class="category" data-category="shiny">shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Predictive Analytics to Support HLBC 8-1-1 and HEiDi Triage</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">dashboard</div>
+    <div class="quarto-category">data_science</div>
+    <div class="quarto-category">education</div>
+    <div class="quarto-category">dash</div>
+    <div class="quarto-category">plotly</div>
+    <div class="quarto-category">machine_learning</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    The HEiDi service, introduced in April 2020, enhanced the 8-1-1 nursing call flow by incorporating virtual physicians. This integration aimed to improve caller triage, reduce unnecessary urgent in-person ED visits, and prioritize patient safety. The main objectives of our project were (1) to extend the HEiDi physician expertise to the 8-1-1 nurse triage model to further reduce urgent in-person ED visits safely and reliably; (2) to gain insights on the most important features for the prediction task; (3) to identify any patterns in predicting two major classes.
+  </div>
 </div>
 
-
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    Stepan Zaiatc 
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of British Columbia
+          </p>
+      </div>
+    </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 1, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -194,243 +195,27 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="project_map.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><em>HEiDi Triage</em> Project Roadmap</figcaption><p></p>
+</figure>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:55%;">
+<p>The primary objective of this initiative was to enhance the 8-1-1 nurse triage model by incorporating the expertise of HealthLink BC Emergency iDoctor in Assistance Program (HEiDi) physicians. Through the development of a machine learning model to predict HEiDi physician disposition, the project aimed to improve nurse triage decisions, reducing urgent in-person emergency department (ED) visits. Techniques such as preprocessing, feature engineering, and data visualization were employed. The project included an automated data pipeline for pre-processing, model training and scoring, and user-friendly dashboard/GUI development for nurse visualization.</p>
+</div>
+</div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="dashboard,data_science,education,dash,plotly,machine_learning" data-listing-date-sort="1682924400000" data-listing-file-modified-sort="1705626849583" data-listing-reading-time-sort="0.5">
-<div class="thumbnail">
-<p><a href="./projects/heidi_triage/index.html"> <img src="./projects/heidi_triage/heidi_app_sketch.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./projects/heidi_triage/index.html">
-<h3 class="no-anchor listing-title">
-Predictive Analytics to Support HLBC 8-1-1 and HEiDi Triage
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dashboard'); return false;">
-dashboard
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data_science'); return false;">
-data_science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
-education
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('dash'); return false;">
-dash
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('plotly'); return false;">
-plotly
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine_learning'); return false;">
-machine_learning
-</div>
-</div>
-<a href="./projects/heidi_triage/index.html">
-<div class="listing-description">
-<p>The HEiDi service, introduced in April 2020, enhanced the 8-1-1 nursing call flow by incorporating virtual physicians. This integration aimed to improve caller triage, reduce unnecessary urgent in-person ED visits, and prioritize patient safety. The main objectives of our project were (1) to extend the HEiDi physician expertise to the 8-1-1 nurse triage model to further reduce urgent in-person ED visits safely and reliably; (2) to gain insights on the most important features for the prediction task; (3) to identify any patterns in predicting two major classes.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./projects/heidi_triage/index.html">
-<div class="listing-date">
-May 1, 2023
-</div>
-<div class="listing-author">
-Stepan Zaiatc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="dashboard,data_science,education,shiny,ggplot" data-listing-date-sort="1679468400000" data-listing-file-modified-sort="1679879840558" data-listing-reading-time-sort="0.485">
-<div class="thumbnail">
-<p><a href="./projects/shiny_suicide_indicator/index.html"> <img src="./projects/shiny_suicide_indicator/shiny.gif" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./projects/shiny_suicide_indicator/index.html">
-<h3 class="no-anchor listing-title">
-Shiny <code>suicide_indicator_r</code> Dashboard
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dashboard'); return false;">
-dashboard
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data_science'); return false;">
-data_science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
-education
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('shiny'); return false;">
-shiny
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ggplot'); return false;">
-ggplot
-</div>
-</div>
-<a href="./projects/shiny_suicide_indicator/index.html">
-<div class="listing-description">
-<p>Shiny <code>suicide_indicator_r</code> Dashboard analyzes the suicide rates and related socio-economic factors in different regions of the world.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./projects/shiny_suicide_indicator/index.html">
-<div class="listing-date">
-Mar 22, 2023
-</div>
-<div class="listing-author">
-Stepan Zaiatc, Qurat-ul-Ain Azim, Ty Andrews, Zilong Yi
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="dashboard,data_science,education,dash,plotly" data-listing-date-sort="1679468400000" data-listing-file-modified-sort="1680384786672" data-listing-reading-time-sort="0.465">
-<div class="thumbnail">
-<p><a href="./projects/dash_suicideWatch/index.html"> <img src="./projects/dash_suicideWatch/suicideWatch.gif" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./projects/dash_suicideWatch/index.html">
-<h3 class="no-anchor listing-title">
-Dash <code>suicideWatch</code> Dashboard
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dashboard'); return false;">
-dashboard
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('data_science'); return false;">
-data_science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
-education
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('dash'); return false;">
-dash
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('plotly'); return false;">
-plotly
-</div>
-</div>
-<a href="./projects/dash_suicideWatch/index.html">
-<div class="listing-description">
-<p>The <code>suicideWatch</code> Dash app provides visualizations and statistics on the number of suicides and suicide rates for different age groups and genders in various countries.This Dash application is a little cuisine of our bigger Shiny application build upon the same data set.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./projects/dash_suicideWatch/index.html">
-<div class="listing-date">
-Mar 22, 2023
-</div>
-<div class="listing-author">
-Stepan Zaiatc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="data_science,education,master_degree" data-listing-date-sort="1674374400000" data-listing-file-modified-sort="1679879730630" data-listing-reading-time-sort="0.69">
-<div class="thumbnail">
-<p><a href="./projects/medium/index.html"> <img src="./projects/medium/ubc.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./projects/medium/index.html">
-<h3 class="no-anchor listing-title">
-The Purpose of an Education Isn’t What You Think it Is
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('data_science'); return false;">
-data_science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('education'); return false;">
-education
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('master_degree'); return false;">
-master_degree
-</div>
-</div>
-<a href="./projects/medium/index.html">
-<div class="listing-description">
-<p>Personal experience of the Master of Data Science program at the University of British Columbia.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./projects/medium/index.html">
-<div class="listing-date">
-Jan 22, 2023
-</div>
-<div class="listing-author">
-Stepan Zaiatc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="data_science,visualization,inferential_statistics" data-listing-date-sort="1671004800000" data-listing-file-modified-sort="1679896050828" data-listing-reading-time-sort="0.76">
-<div class="thumbnail">
-<p><a href="./projects/heart_attack_study/index.html"> <img src="./projects/heart_attack_study/heart_inference.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./projects/heart_attack_study/index.html">
-<h3 class="no-anchor listing-title">
-Inferential Study Identifying Factors Associated with Heart Diseases
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('data_science'); return false;">
-data_science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
-visualization
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('inferential_statistics'); return false;">
-inferential_statistics
-</div>
-</div>
-<a href="./projects/heart_attack_study/index.html">
-<div class="listing-description">
-<p>The project identifies factors associated with heart disease by analyzing demographic and health factors using permutation and Chi-Squared tests. By the end of this study age, maximum heart rate achieved, and ST depression induced by exercise were found to be significantly associated with heart disease.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./projects/heart_attack_study/index.html">
-<div class="listing-date">
-Dec 14, 2022
-</div>
-<div class="listing-author">
-Stepan Zaiatc, Kelly Wu, Bruce Wu, Zilong Yi
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
