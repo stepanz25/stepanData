@@ -43,8 +43,6 @@ Currently, I'm seeking to transition knowledge to the field of computational bio
 
 <p>`r fa('graduation-cap')` BSc Microbiology, 2019 <br> <small class="text-muted">University of British Columbia, Kelowna</small></p>
 
-<p>`r fa('graduation-cap')` BA Service and Tourism, 2017 <br> <small class="text-muted">Sakhalin State University, Russia</small></p>
-
 ## **awards**
 
 <p>`r fa('award')` Dean's Honour List, 2018 <br> <small class="text-muted">This designation recognizes exceptionally high academic achievements at UBC's Faculty of Science</small></p>
