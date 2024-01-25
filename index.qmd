@@ -60,3 +60,4 @@ Currently, I'm seeking to transition knowledge to the field of computational bio
 <p>`r fa('vial')` Microbiologist, Sep 2020 -- Mar 2021<br> <small class="text-muted">Agat Laboratories, Burnaby BC</small></p>
 
 <p>`r fa('vial')` Inorganic Laboratory Analyst, Feb 2020 -- Mar 2021<br> <small class="text-muted">Agat Laboratories, Burnaby, BC</small></p>
+
