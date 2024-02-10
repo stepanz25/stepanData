@@ -39,9 +39,13 @@ Currently, I'm seeking to transition knowledge to the field of computational bio
 
 ## **education**
 
-<p>`r fa('graduation-cap')` Master of Data Science, 2023 <br> <small class="text-muted">University of British Columbia, Vancouver</small></p>
+<p>`r fa('graduation-cap')` Master of Data Science, 2023 <br> <small class="text-muted">University of British Columbia</small></p>
 
-<p>`r fa('graduation-cap')` BSc Microbiology, 2019 <br> <small class="text-muted">University of British Columbia, Kelowna</small></p>
+<p>`r fa('graduation-cap')` BSc Microbiology, 2019 <br> <small class="text-muted">University of British Columbia</small></p>
+
+<p>`r fa('graduation-cap')` University Transfer Program, 2015 <br> <small class="text-muted">Columbia College, Vancouver, BC</small></p>
+
+<p>`r fa('graduation-cap')` Highschool – Grade 12, 2014 <br> <small class="text-muted">Center of English Studies, Dublin, IRE</small></p>
 
 ## **awards**
 
@@ -59,5 +63,12 @@ Currently, I'm seeking to transition knowledge to the field of computational bio
 
 <p>`r fa('vial')` Microbiologist, Sep 2020 -- Mar 2021<br> <small class="text-muted">Agat Laboratories, Burnaby BC</small></p>
 
-<p>`r fa('vial')` Inorganic Laboratory Analyst, Feb 2020 -- Mar 2021<br> <small class="text-muted">Agat Laboratories, Burnaby, BC</small></p>
+<p>`r fa('vial')` Inorganic Laboratory Analyst, Mar 2020 -- Mar 2021<br> <small class="text-muted">Agat Laboratories, Burnaby, BC</small></p>
 
+<p>`r fa('vial')` Laboratory Technician, Feb 2020 -- Mar 2020<br> <small class="text-muted">Agat Laboratories, Burnaby, BC</small></p>
+
+<p>`r fa('wine-glass-empty')` Wine Consultant, Aug 2019 -- Feb 2020<br> <small class="text-muted">Everything Wine Inc., West Vancouver, BC</small></p>
+
+<p>`r fa('hands-holding-child')` Summer Camp Leader, May 2019 -- Aug 2019<br> <small class="text-muted">Sprott Shaw College, Vancouver, BC</small></p>
+
+<p>`r fa('vial')` Research Assistant, Sep 2018 -- Jan 2019<br> <small class="text-muted">University of British Columbia, Canada</small></p>
